@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="UTF-8" />
+        <title>Hello jQuery</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/create.js"></script>
+        <style type="text/css">
+<!--
+button{
+	width:40px;
+	height:40px;
+}
+-->
+        </style>
+    </head>
+
+    <body>
+    	<h2>Raspberry Sensor</h2>
+        <div>
+            <p>Light Sensor Value : <span id="light_sensor_value"></span> </p>
+        </div>
+        <h2> Create2 Control</h2>
+        <table>
+        	<tr>
+	        	<td></td>
+	        	<td><button onclick="forward()">↑</button></td>
+	        	<td></td>
+	        </tr>
+        	<tr>
+	        	<td><button onclick="left()">←</button></td>
+	        	<td><button onclick="stop()">||</button></td>
+	        	<td><button onclick="right()">→</button></td>
+	        </tr>
+        	<tr>
+	        	<td></td>
+	        	<td><button onclick="back()">↓</button></td>
+	        	<td></td>
+	        </tr>
+        </table>
+    </body>
+</html>
