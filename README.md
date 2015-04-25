@@ -3,6 +3,8 @@
 ## ディレクトリ構成
 - doc
 	- 配布資料
+- src
+	- 配布ソースコード
 
 ## Copyright, License
 Copyright (c) 2015, Kyushu University.
